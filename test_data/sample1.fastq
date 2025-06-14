@@ -1,0 +1,6 @@
+cat > test_data/sample1.fastq <<EOF
+@SEQ_ID
+GATTACA
++
+!!!!!!!
+EOF
