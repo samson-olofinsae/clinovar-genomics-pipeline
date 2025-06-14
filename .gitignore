@@ -1,0 +1,26 @@
+# Local-only helper script (not part of the GitHub-facing pipeline)
+create_clinovar_structure.sh
+
+# Prevent accidental tracking of binary or output files
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.zip
+*.html
+*.pdf
+
+# Temporary or hidden system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Nextflow execution artifacts (optional, for cleaner commits)
+.work/
+.nextflow*
+
+#  VSCode or editor settings (optional)
+.vscode/
+.idea/
