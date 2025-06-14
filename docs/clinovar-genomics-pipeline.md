@@ -78,7 +78,7 @@ This pipeline is built in alignment with:
 
 ---
 
-## 👤 Maintainer
+## Maintainer
 **Samson Olofinsae**  
 Clinical Bioinformatics Trainee (NHS, UK)  
 *Independent project for education and professional development.*
