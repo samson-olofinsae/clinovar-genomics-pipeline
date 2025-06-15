@@ -111,6 +111,7 @@ Clinical Bioinformatics Trainee (NHS, UK)
 ## License
 
 Released under the MIT License. See [LICENSE](./LICENSE).
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
 
