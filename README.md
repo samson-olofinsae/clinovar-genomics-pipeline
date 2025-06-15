@@ -21,19 +21,33 @@ The pipeline processes raw FASTQ files to final MDT-ready outputs, including var
 
 ### Workflow Summary
 
-| Step | Tool | Output |
-|------|------|--------|
-| 1.  | FastQC            | Read quality reports (`.html`, `.zip`) |
-| 2.  | BWA               | Aligned BAM (`.bam`) |
-| 3.  | Picard            | Deduplicated BAM + metrics |
-| 4.  | Samtools          | Indexed BAM (`.bai`) |
-| 5.  | Picard (GC Bias)  | Bias plot + summary |
-| 6.  | Mosdepth          | Coverage stats |
-| 7.  | VerifyBamID       | Contamination check |
-| 8.  | Mutect2 / Strelka | Raw somatic VCF |
-| 9.  | Ensembl VEP       | Annotated VCF |
-| 10. | Markdown-to-PDF   | Simulated MDT report |
-| 11. | Logging           | Audit trail of file versions, tool versions, outputs |
+| Step | Tool               | Output                                      | Reference |
+|------|--------------------|---------------------------------------------|-----------|
+| 1.   | FastQC             | Read quality reports (`.html`, `.zip`)      | Andrews et al., 2010 |
+| 2.   | BWA                | Aligned BAM (`.bam`)                        | Li & Durbin, 2009 |
+| 3.   | Picard             | Deduplicated BAM + metrics                  | Broad Institute, 2019 |
+| 4.   | Samtools           | Indexed BAM (`.bai`)                        | Li et al., 2009 |
+| 5.   | Picard (GC Bias)   | Bias plot + summary                         | Broad Institute, 2019 |
+| 6.   | Mosdepth           | Coverage statistics                         | Pedersen & Quinlan, 2018 |
+| 7.   | VerifyBamID        | Contamination estimation                    | Jun et al., 2012 |
+| 8.   | Mutect2 / Strelka2 | Raw somatic VCF                            | Cibulskis et al., 2013 / Kim et al., 2018 |
+| 9.   | Ensembl VEP        | Annotated VCF                               | McLaren et al., 2016 |
+| 10.  | Markdown-to-PDF    | Simulated MDT report (`.pdf`)               | N/A (internal simulation) |
+| 11.  | Logging            | Audit trail of tool versions, output paths  | N/A (internal module) |
+
+---
+
+## References
+
+- Andrews S. *FastQC: a quality control tool for high throughput sequence data*. (2010).
+- Li H., Durbin R. *Fast and accurate short read alignment with Burrows–Wheeler transform*. Bioinformatics, 2009.
+- Broad Institute. *Picard Toolkit*. (2019). http://broadinstitute.github.io/picard/
+- Li H. et al. *The Sequence Alignment/Map format and SAMtools*. Bioinformatics, 2009.
+- Pedersen BS, Quinlan AR. *Mosdepth: quick coverage calculation for genomes and exomes*. Bioinformatics, 2018.
+- Jun G. et al. *Detecting and estimating contamination of human DNA samples*. AJHG, 2012.
+- Cibulskis K. et al. *Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples*. Nat Biotech, 2013.
+- Kim S. et al. *Strelka2: fast and accurate variant calling for clinical sequencing applications*. Nat Methods, 2018.
+- McLaren W. et al. *The Ensembl Variant Effect Predictor*. Genome Biol, 2016.
 
 ---
 
