@@ -115,3 +115,9 @@ Released under the MIT License. See [LICENSE](./LICENSE).
 ---
 
 > *“Pipelines are stories. This one tells the story of trust, reproducibility, and clarity in clinical genomics.”*
+
+
+
+## Ethical Statement
+This project is intended strictly for educational and training purposes. It does not represent, replicate, or leak any internal pipeline, data, or intellectual property of the NHS, WMRGL, or affiliated institutions. All workflows and configurations are simulated, inspired by publicly documented practices, and are developed independently by the author under the principles of transparency, reproducibility, and academic learning.
+
