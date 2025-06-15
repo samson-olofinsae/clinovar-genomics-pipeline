@@ -121,4 +121,4 @@ Released under the MIT License. See [LICENSE](./LICENSE).
 
 ## Ethical Statement
 This project is intended strictly for educational and training purposes. It does not represent, replicate, or leak any internal pipeline, data, or intellectual property of the NHS, WMRGL, or affiliated institutions. All workflows and configurations are simulated, inspired by publicly documented practices, and are developed independently by the author under the principles of transparency, reproducibility, and academic learning.
-
+The name **Clinovar** is entirely fictional and chosen solely for illustrative convenience. It does not refer to, endorse, or represent any real genomics company, organisation, or product — governmental or private.
