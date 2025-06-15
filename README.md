@@ -64,7 +64,7 @@ The pipeline processes raw FASTQ files to final MDT-ready outputs, including var
 
 Clone the repo and run:
 ```bash
-nextflow run main.nf -profile standard --input_fastq "./data/*.fastq.gz" --reference "./resources/genomes/hg19_chr8.fa"
+nextflow run main.nf -profile singularity --input_fastq "./data/*.fastq.gz" --reference "./resources/genomes/hg19_chr8.fa"
 ```
 
 Override any parameter via command line or edit `nextflow.config`.
