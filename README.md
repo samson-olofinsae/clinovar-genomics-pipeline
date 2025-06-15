@@ -74,14 +74,14 @@ Override any parameter via command line or edit `nextflow.config`.
 ## Repository Structure
 
 ```bash
-🔹 main.nf
-🔹 nextflow.config
-🔹 modules/                 # Modular DSL2 processes
-🔹 docs/                    # Project documentation
-🔹 resources/               # Reference genome and tool assets
-🔹 .gitignore
-🔹 LICENSE
-🔹 README.md                # You’re reading it!
+main.nf
+nextflow.config
+modules/                 # Modular DSL2 processes
+docs/                    # Project documentation
+resources/               # Reference genome and tool assets
+.gitignore
+LICENSE
+README.md                # You’re reading it!
 ```
 
 ---
