@@ -25,27 +25,27 @@ workflow {
     // Execution chain
     fastqc_process(raw_reads)
 
-    alignment_process(raw_reads)
-        .out
-        .set { aligned_bam }
+    //alignment_process(raw_reads)
+    //    .out
+    //    .set { aligned_bam }
 
-    mark_duplicates(aligned_bam)
-        .out
-        .set { dedup_bam }
+    //mark_duplicates(aligned_bam)
+    //    .out
+    //    .set { dedup_bam }
 
-    index_bam(dedup_bam)
-    gc_bias_metrics(dedup_bam)
-    coverage_report(dedup_bam)
-    contamination_check(dedup_bam)
+    //index_bam(dedup_bam)
+    //gc_bias_metrics(dedup_bam)
+    //coverage_report(dedup_bam)
+    //contamination_check(dedup_bam)
 
-    variant_calling(dedup_bam)
-        .out
-        .set { raw_vcf }
+    //variant_calling(dedup_bam)
+    //    .out
+    //    .set { raw_vcf }
 
-    annotate_vcf(raw_vcf)
-        .out
-        .set { annotated_vcf }
+    //annotate_vcf(raw_vcf)
+    //    .out
+    //    .set { annotated_vcf }
 
-    generate_mdt_report(annotated_vcf)
-    pipeline_logger()
+    //generate_mdt_report(annotated_vcf)
+    //pipeline_logger()
 }
