@@ -24,3 +24,11 @@ Thumbs.db
 #  VSCode or editor settings (optional)
 .vscode/
 .idea/
+
+# Log and intermediate output files:
+*.log
+*.metrics.txt
+*.summary.txt
+
+# Full result directory
+results/
