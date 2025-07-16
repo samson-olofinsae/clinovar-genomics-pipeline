@@ -32,3 +32,8 @@ Thumbs.db
 
 # Full result directory
 results/
+
+# Ignore commit logs and script
+logs/activity_log_*.txt
+logs/log_today_commits.sh
+
