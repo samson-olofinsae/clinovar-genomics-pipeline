@@ -37,3 +37,7 @@ results/
 logs/activity_log_*.txt
 logs/log_today_commits.sh
 
+
+# Ingore the notes/ folder - contains file for useful commmands
+notes/useful_commands.md
+
