@@ -103,7 +103,7 @@ Designed to reflect core principles from NHS Genomic Laboratory Hubs (GLHs), HCP
 ## Author
 
 **Samson Olofinsae**  
-Clinical Bioinformatics Trainee (NHS, UK)  
+  
 *This pipeline is an independent educational project and is not affiliated with or endorsed by WMRGL or the NHS.*
 
 ---
